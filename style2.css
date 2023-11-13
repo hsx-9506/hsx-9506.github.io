@@ -32,4 +32,5 @@ header li {
     display: inline-block;
     margin-right: 4vw;
     line-height: 60px;
+    font-size: 25px;
 }
