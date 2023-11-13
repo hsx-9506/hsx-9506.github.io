@@ -88,7 +88,7 @@ header li {
     .program {
         flex-direction: column;
         width: 100%;
-        padding: 40px 1px;
+        padding: 40px 0px;
     }
     .program img {
         width: 100%;
@@ -121,7 +121,7 @@ header li {
     .program {
         flex-direction: column;
         width: 100%;
-        padding: 40px 1px;
+        padding: 40px 0px;
     }
     .program img {
         width: 100%;
