@@ -62,35 +62,15 @@ header li {
 .info a {
     font-size: 20px;
 }
-.menu {
+.menu{
     display: none;
-    display: block;
-    background-color: transparent;
-    color: white;
-    font-size: 35px;
-    position: absolute;
-    top: 15px;
-    left: 20px;
-    border: none;
-    cursor: pointer;
 }
-.nav-list {
-    display: none;
-    flex-direction: column;
-    background-color: #494949;
-    position: absolute;
-    top: 60px;
-    left: 0;
-    width: 100%;
+.menu:hover {
+    text-decoration: underline;
 }
-.nav-list.show {
+nav ul {
+    list-style: none;
     display: flex;
-}
-.nav-list li {
-    margin: 0;
-    text-align: center;
-    padding: 10px;
-    border-bottom: 1px solid #555;
 }
 
 
@@ -135,9 +115,11 @@ header li {
         left: 0;
         width: 100%;
     }
+
     .nav-list.show {
         display: flex;
     }
+
     .nav-list li {
         margin: 0;
         text-align: center;
@@ -177,6 +159,26 @@ header li {
     .info {
         width: 100%;
     }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #555;
+    }
 }
 
 @media screen and (max-width: 1260px) {
@@ -209,5 +211,25 @@ header li {
     }
     .info {
         width: 100%;
+    }
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+    }
+
+    .nav-list.show {
+        display: flex;
+    }
+
+    .nav-list li {
+        margin: 0;
+        text-align: center;
+        padding: 10px;
+        border-bottom: 1px solid #555;
     }
 }
