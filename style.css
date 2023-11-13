@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
 }
+
+/* header */
 header {
     background-color: rgb(42, 105, 160);
     height: 80px;
@@ -31,7 +33,11 @@ header a:hover {
 header li {
     display: inline;
     margin-right: 4vw;
+    line-height: 60px;
+    font-size: 18px;
 }
+
+/* main */
 .program {
     background-color: white;
     display: flex;
