@@ -20,7 +20,7 @@ h1 {
 header ul {
     position: absolute;
     right: 5vw;
-    top: 0;
+    top: 10px;
     line-height: 80px;
 }
 header a {
