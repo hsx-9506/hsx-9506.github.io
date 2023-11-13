@@ -15,6 +15,12 @@ h1 {
     top: 0;
     line-height: 80px;
 }
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+}
 header a {
     color: white;
     text-decoration: none;
@@ -23,6 +29,7 @@ header a:hover {
     text-decoration: underline;
 }
 header li {
-    display: inline;
+    display: inline-block;
     margin-right: 4vw;
+    line-height: 60px;
 }
