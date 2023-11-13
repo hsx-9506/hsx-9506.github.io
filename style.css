@@ -68,6 +68,8 @@ header li {
 .info a {
     font-size: 20px;
 }
+
+/* menu */
 .menu{
     display: none;
 }
