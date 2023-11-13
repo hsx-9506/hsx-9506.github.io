@@ -66,6 +66,7 @@ header li {
     display: none;
 }
 
+/* 螢幕比例調整 */
 @media screen and (max-width: 768px) {
     header ul {
         display: none;
@@ -100,6 +101,39 @@ header li {
 }
 
 @media screen and (max-width: 1080px) {
+    header ul {
+        display: none;
+    }
+    header h1 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .menu {
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 35px;
+        position: absolute;
+        top: 15px;
+        left: 20px;
+        border: none;
+        cursor: pointer;
+    }
+    .program {
+        flex-direction: column;
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .program img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .info {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1260px) {
     header ul {
         display: none;
     }
