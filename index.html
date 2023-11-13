@@ -6,7 +6,16 @@
     <title>專題製作</title>
     <link rel="stylesheet" type=text/css href="https://hsx-9506.github.io/style.css">
 </head>
-</head>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const menuButton = document.querySelector('.menu');
+        const navList = document.querySelector('nav ul');
+
+        menuButton.addEventListener('click', function () {
+            navList.classList.toggle('show');
+        });
+    });
+</script>
 <body>
     <header>
     <button class="menu">&#9776</button>
@@ -22,21 +31,21 @@
         <section class="program">
             <img src="https://hsx-9506.github.io/image/pic2.jpg" alt="程式設計範例圖片">
         
-            <div class="info">
-                <h2>電路及程式設計</h2>
-                <p><strong>紅外線感應計數器</strong></p>
-                <p><a href="#">瞭解更多</a></p>
-            </div>
+                <div class="info">
+                    <h2>電路及程式設計</h2>
+                    <p><strong>紅外線感應計數器</strong></p>
+                    <p><a href="https://hsx-9506.github.io/counter.html">瞭解更多</a></p>
+                </div>
         </section>
 
         <section class="program">
-        <img src="https://hsx-9506.github.io/image/pic1.jpg" alt="外殼設計">
+            <img src="https://hsx-9506.github.io/image/pic1.jpg" alt="外殼設計">
         
-        <div class="info">
-        <h2>外殼設計及製作</h3>
-        <p><strong>硬幣分類機</strong></p>
-        <p><a href="#">瞭解更多</a></p>
-        </div>
+            <div class="info">
+                <h2>外殼設計及製作</h3>
+                <p><strong>硬幣分類機</strong></p>
+                <p><a href="https://hsx-9506.github.io/shell.html">瞭解更多</a></p>
+            </div>
         </section>
     </main>
     <footer>
