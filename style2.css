@@ -37,7 +37,7 @@ header li {
     font-size: 18px;
 }
 
-/* main */
+/* main-member */
 .member {
     display: flex;
     flex: 1;
@@ -49,6 +49,14 @@ header li {
 .member h2 {
     color: black;
     padding: 10px;
+}
+
+/* main-count */
+.count {
+    background-color: white;
+    display: flex;
+    width: 50%;
+    padding: 30px 60px;
 }
 
 /* 螢幕比例調整 */
