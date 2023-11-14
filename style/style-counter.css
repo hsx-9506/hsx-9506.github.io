@@ -42,11 +42,11 @@ header li {
 .count {
     background-color: white;
     display: flex;
-    width: 1250px;
+    width: 1350px;
     padding: 50px 60px;
 }
 .count img {
-    width: 750px;
+    width: 700px;
 }
 .info-count {
     background-color: rgb(238, 238, 238);
